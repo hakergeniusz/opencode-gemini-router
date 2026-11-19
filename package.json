@@ -1,0 +1,27 @@
+{
+  "name": "opencode-gemini-router",
+  "version": "0.1.0",
+  "description": "OpenCode V2 plugin: Gemini Flash router models that walk a model ladder and rotate API keys until one answers, with per-pair quota awareness.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "gemini",
+    "router",
+    "quota"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest"
+  }
+}
